@@ -8,14 +8,14 @@
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     height: 100vh;
-    position: relative; /* Necessary for absolute positioning within the body */
+    position: relative; 
   }
   
-  /* Container for the form */
+  
   .app-create-a-metting-schduele {
-    position: absolute; /* Position the form absolutely */
-    top: 20px; /* Distance from the top */
-    right: 20px; /* Distance from the right */
+    position: absolute; 
+    top: 20px; 
+    right: 20px; 
     width: 100%;
     max-width: 400px;
     background-color: #fff;
@@ -26,7 +26,7 @@
     margin-right: 25px;
   }
   
-  /* Style the form heading */
+  
   h1 {
     text-align: center;
     margin-bottom: 20px;
@@ -34,7 +34,6 @@
     color: #333;
   }
   
-  /* Style for the labels */
   label {
     display: block;
     margin-bottom: 8px;
@@ -54,7 +53,7 @@
     font-size: 16px;
   }
   
-  /* Style for the submit button */
+  
   input[type="submit"] {
     width: 100%;
     padding: 10px;
@@ -67,15 +66,15 @@
     transition: background-color 0.3s ease;
   }
   
-  /* Hover effect for the submit button */
+  
   input[type="submit"]:hover {
     background-color: #0056b3;
   }
   
-  /* Optional: Adjust form padding for smaller screens */
+  
   @media (max-width: 768px) {
     .app-create-a-metting-schduele {
-      top: 10px; /* Reduce the top padding for smaller screens */
+      top: 10px; 
       right: 10px;
       width: 90%;
     }
